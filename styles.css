@@ -333,6 +333,9 @@ button:focus-visible, a:focus-visible, summary:focus-visible { outline: 3px soli
 .io-heading { margin-top: 51px; }
 .io-tables { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; }
 .io-table-wrap { min-width: 0; border: 1px solid var(--line); background: #fff; }
+.io-reference { margin: 0; padding: 10px; background: #f4f8fa; }
+.io-reference img { display: block; width: 100%; height: auto; }
+.io-reference figcaption { margin-top: 6px; color: #718096; font-size: 8px; }
 .io-table-wrap h4 { margin: 0; padding: 12px 14px; border-bottom: 1px solid var(--line); color: var(--blue); font-size: 12px; }
 .table-scroll { overflow-x: auto; }
 .io-table-wrap table { width: 100%; border-collapse: collapse; font-size: 10px; text-align: left; }
@@ -466,7 +469,7 @@ button:focus-visible, a:focus-visible, summary:focus-visible { outline: 3px soli
   .sensor-card summary > strong { font-size: 13px; }
   .sensor-description { padding-inline: 15px; }
   .driver-tabs { padding-inline: 5px; }
-  .driver-tab { min-height: 55px; gap: 5px; padding: 0 10px; font-size: 8px; }
+  .driver-tab { min-width: 0; min-height: 55px; flex: 1; justify-content: center; gap: 5px; padding: 0 5px; font-size: 8px; white-space: nowrap; }
   .driver-tab span { font-size: 9px; }
   .driver-content { grid-template-columns: 1fr; gap: 28px; padding: 27px 19px; }
   .equipment-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }

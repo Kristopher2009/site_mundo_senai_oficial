@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" role="img" aria-labelledby="title desc">
+  <title id="title">Referência visual do mapa de saídas do CLP</title>
+  <desc id="desc">Esquema de uma estação de expedição ao lado dos sete sinais de saída documentados.</desc>
+  <rect width="900" height="380" fill="#f5f8fa"/>
+  <text x="36" y="45" fill="#2876d2" font-family="Arial,sans-serif" font-size="25" font-weight="700">Saídas CLP</text>
+  <g transform="translate(36 83)">
+    <rect width="218" height="255" rx="6" fill="#20272c"/>
+    <rect x="19" y="18" width="180" height="30" fill="#aab7bd"/>
+    <path d="M35 18V0m148 18V0M23 51h172" fill="none" stroke="#687880" stroke-width="5"/>
+    <rect x="28" y="78" width="162" height="132" fill="#111619" stroke="#4b5a61" stroke-width="3"/>
+    <rect x="48" y="61" width="122" height="31" rx="3" fill="#71848d"/>
+    <rect x="58" y="67" width="55" height="18" fill="#eaf0f3"/>
+    <text x="48" y="121" fill="#83b857" font-family="Arial,sans-serif" font-size="14" font-weight="700">SMART 4.0</text>
+    <text x="48" y="145" fill="#92a0a5" font-family="Arial,sans-serif" font-size="11">ESTAÇÃO DE EXPEDIÇÃO</text>
+    <path d="M28 223h162m-144 0v15m124-15v15" stroke="#97a4aa" stroke-width="5"/>
+    <circle cx="44" cy="248" r="4" fill="#44535a"/><circle cx="176" cy="248" r="4" fill="#44535a"/>
+  </g>
+  <g transform="translate(286 83)" font-family="Arial,sans-serif">
+    <rect width="578" height="255" fill="#fff" stroke="#9eabb1" stroke-width="2"/>
+    <path d="M0 36h578M0 67h578M0 94h578M0 121h578M0 148h578M0 175h578M0 202h578M0 229h578M360 36v219M464 36v219" stroke="#b3bec3" stroke-width="1.5"/>
+    <rect width="578" height="36" fill="#eaf2f7"/>
+    <g fill="#405563" font-size="13" font-weight="700"><text x="14" y="23">Descrição</text><text x="371" y="23">Canal CLP</text><text x="477" y="23">Endereço</text></g>
+    <g fill="#33434b" font-size="12"><text x="14" y="56">Avança alimentador</text><text x="14" y="84">Aciona vácuo</text><text x="14" y="111">Motor esteira 1 e giro</text><text x="14" y="138">Motor esteira 2</text><text x="14" y="165">Válvula 1 do stopper</text><text x="14" y="192">Válvula 2 do stopper</text><text x="14" y="219">Status para Smart Sense</text></g>
+    <g fill="#526574" font-family="monospace" font-size="12"><text x="390" y="56">Qa0</text><text x="390" y="84">Qa1</text><text x="390" y="111">Qa2</text><text x="390" y="138">Qa3</text><text x="390" y="165">Qa4</text><text x="390" y="192">Qa5</text><text x="390" y="219">Qb1</text><text x="483" y="56">%Q0.0</text><text x="483" y="84">%Q0.1</text><text x="483" y="111">%Q0.2</text><text x="483" y="138">%Q0.3</text><text x="483" y="165">%Q0.4</text><text x="483" y="192">%Q0.5</text><text x="483" y="219">%Q1.1</text></g>
+  </g>
+</svg>
