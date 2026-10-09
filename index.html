@@ -17,8 +17,8 @@
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="#inicio" aria-label="Mundo SENAI, início">
-        <span class="brand-mark" aria-hidden="true">MS</span>
-        <span class="brand-copy"><strong>MUNDO SENAI</strong><span>Automação &amp; Expedição</span></span>
+        <img class="senai-logo" src="assets/senai-logo.svg" alt="SENAI">
+        <span class="brand-copy"><strong>BANCADA 4.0</strong><span>Expedição · Mundo SENAI</span></span>
       </a>
       <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
         <span></span><span></span><span></span>
@@ -44,7 +44,7 @@
       <div class="hero-content page-width">
         <p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> AMOSTRA MUNDO SENAI · PROJETO INTEGRADOR</p>
         <h1 id="hero-title">Da automação<br>à <span>expedição.</span></h1>
-        <p class="hero-lede">Uma célula integrada que transforma sensores, controle e movimento em um processo de expedição inteligente.</p>
+        <p class="hero-lede">Este é o caminho de uma peça na nossa bancada: os sensores identificam, o CLP coordena e a estação de expedição conclui o ciclo.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#bancada">Explorar a bancada <span aria-hidden="true">↗</span></a>
           <a class="button button-quiet" href="#expedicao">Ver o processo <span aria-hidden="true">↓</span></a>
@@ -97,13 +97,12 @@
       <div class="page-width">
         <div class="section-heading reveal">
           <div><p class="eyebrow"><span class="eyebrow-line"></span> MÓDULO CARLOS · MOVIMENTO</p><h2 id="robot-title">Precisão em<br><span class="text-blue">cada eixo.</span></h2></div>
-          <p class="section-summary">O robô pneumático manipula a peça entre as etapas da célula, conectando o processo de triagem ao despacho.</p>
+          <p class="section-summary">Aqui mostramos como o módulo de movimentação se encaixa na linha e o que ainda precisamos confirmar sobre os atuadores do robô.</p>
         </div>
         <div class="robot-grid reveal">
           <div class="robot-photo">
-            <!-- Substitua este bloco pela foto ou diagrama pneumático do Robô Carlos. -->
-            <div class="photo-placeholder"><span class="placeholder-icon" aria-hidden="true">＋</span><strong>Espaço para foto ou diagrama</strong><span>Robô pneumático · Projeto Carlos</span></div>
-            <span class="photo-label">MÓDULO 01 <i></i> MANIPULAÇÃO</span>
+            <img class="robot-reference" src="assets/bancada-visao-geral.svg" alt="Esquema da linha Bancada 4.0 com seus módulos e braço robótico">
+            <span class="photo-label">LINHA COMPLETA <i></i> BANCADA 4.0</span>
           </div>
           <div class="robot-details">
             <div class="detail-heading"><span class="detail-number">01 / 03</span><h3>Movimento coordenado,<br>acionamento pneumático.</h3></div>
@@ -123,7 +122,7 @@
       <div class="page-width">
         <div class="section-heading reveal">
           <div><p class="eyebrow"><span class="eyebrow-line"></span> NÍVEL 02 · CONTROLE</p><h2 id="hmi-title">A operação,<br><span class="text-blue">sob controle.</span></h2></div>
-          <p class="section-summary">Uma simulação interativa da interface homem-máquina. Inicie um ciclo e acompanhe os estados virtuais da célula.</p>
+          <p class="section-summary">A tela abaixo é uma simulação para navegar pelo projeto. Mais adiante, mostramos também os comandos e indicadores do painel físico.</p>
         </div>
         <div class="hmi-shell reveal">
           <div class="hmi-topbar"><div class="hmi-brand"><span class="hmi-mark">S</span><span><strong>CÉLULA DE EXPEDIÇÃO</strong><small>PAINEL DE OPERAÇÃO · CLP 01</small></span></div><div class="hmi-connection"><i></i> SISTEMA ONLINE <span class="hmi-clock" id="hmi-clock">--:--:--</span></div></div>
@@ -157,6 +156,10 @@
           <div class="hmi-footer"><span><i></i> SIMULAÇÃO LOCAL</span><span>INTERFACE DEMONSTRATIVA · SEM COMANDO DE HARDWARE</span></div>
         </div>
         <p class="hmi-disclaimer">Demonstração visual para a feira. Os comandos desta página não se conectam à bancada física.</p>
+        <div class="hmi-hardware reveal">
+          <figure class="hmi-hardware-image"><img src="assets/ihm-painel-frontal.svg" alt="Esquema do painel frontal com IHM KTP 700, botões de operação e indicadores de segurança"><figcaption>Painel frontal da estação de expedição · esquema baseado no material do grupo</figcaption></figure>
+          <div class="hmi-hardware-copy"><p class="eyebrow"><span class="eyebrow-line"></span> PAINEL FÍSICO</p><h3>Uma tela e os comandos da estação.</h3><p>A IHM Siemens KTP 700 fica ao lado dos comandos de operação. Start e Stop controlam o ciclo; a emergência e os indicadores de segurança ajudam o operador a entender o estado da bancada.</p><ul class="hardware-list"><li>IHM Siemens KTP 700 e chave Setup</li><li>Botões Start, Stop e Emergência</li><li>Reset e indicação do estado de segurança</li></ul></div>
+        </div>
       </div>
     </section>
 
@@ -215,6 +218,23 @@
           <article class="equipment-item"><span class="equipment-index">04</span><span class="equipment-icon icon-button" aria-hidden="true"><i></i></span><h3>Botoneira e emergência</h3><p>Comandos de operação e parada de emergência do sistema físico.</p><span class="equipment-tag">SEGURANÇA</span></article>
           <article class="equipment-item"><span class="equipment-index">05</span><span class="equipment-icon icon-plc" aria-hidden="true"><i></i><i></i><i></i><i></i></span><h3>CLP e módulos de E/S</h3><p>Executam a lógica de controle e conectam sensores e atuadores.</p><span class="equipment-tag">CONTROLE</span></article>
         </div>
+        <div class="bench-dossier reveal">
+          <div class="dossier-heading"><div><p class="eyebrow"><span class="eyebrow-line"></span> MATERIAL DO PROJETO</p><h3>Como a estação está montada.</h3></div><p>Reunimos aqui o desenho geral e os mapas de ligação usados pela equipe. As ilustrações são esquemáticas; os nomes dos sinais seguem a documentação compartilhada.</p></div>
+          <figure class="bench-overview"><img src="assets/bancada-visao-geral.svg" alt="Ilustração da linha com os módulos de estoque, processo, montagem e expedição"><figcaption><span>01</span> A linha completa reúne estoque, processo, montagem e expedição.</figcaption></figure>
+          <div class="station-diagrams">
+            <article class="station-card"><div class="station-card-copy"><span class="equipment-tag">AR COMPRIMIDO · ESTAÇÃO DE EXPEDIÇÃO</span><h4>Preparação e distribuição pneumática</h4><p>O circuito parte da entrada de ar, passa pela preparação e segue para as válvulas, o vácuo e as conexões da próxima estação.</p></div><figure><img src="assets/pneumatica-expedicao.svg" alt="Diagrama do circuito pneumático da estação de expedição"><figcaption>Diagrama esquemático do conjunto pneumático.</figcaption></figure><details class="component-details"><summary>Ver componentes identificados</summary><ol><li>Entrada de ar comprimido</li><li>Entrada de alimentação elétrica</li><li>Seccionadora geral</li><li>Alimentação da próxima bancada</li><li>Porta Ethernet RJ-45</li><li>Válvula manual</li><li>Saída de ar para próxima bancada</li><li>Válvulas</li><li>Gerador de vácuo</li><li>Vacuostato</li><li>Filtro regulador</li><li>Válvula de bloqueio</li></ol></details></article>
+            <article class="station-card"><div class="station-card-copy"><span class="equipment-tag">COMANDO · PROTEÇÃO · COMUNICAÇÃO</span><h4>O que fica dentro do painel</h4><p>O painel concentra proteção elétrica, distribuição de 24 V, controle dos atuadores e comunicação da estação.</p></div><figure><img src="assets/painel-eletrico.svg" alt="Vista esquemática dos trilhos e componentes do painel elétrico"><figcaption>Vista esquemática da disposição dos componentes.</figcaption></figure><details class="component-details"><summary>Ver componentes identificados</summary><ol><li>Relés de interface</li><li>Relé de segurança</li><li>Disjuntores de proteção</li><li>Fonte chaveada 24 VCC</li><li>Distribuidor de alimentação 24 VCC</li><li>Drive dos eixos dos atuadores elétricos</li><li>CLP Siemens S7-1200</li><li>Contator tripolar</li><li>Switch Ethernet de 5 portas</li><li>Multimedidor Smart Sense</li><li>Client Wi-Fi</li></ol></details></article>
+          </div>
+          <div class="io-heading"><div><p class="eyebrow"><span class="eyebrow-line"></span> CLP · SIEMENS S7-1200</p><h3>Sinais de entrada e saída.</h3></div><p>Esta é a identificação que aparece no mapa de I/O compartilhado pela equipe. Confira a revisão do programa antes de usar esses endereços na máquina.</p></div>
+          <div class="io-tables">
+            <div class="io-table-wrap"><h4>Entradas</h4><div class="table-scroll"><table><thead><tr><th scope="col">Descrição</th><th scope="col">Canal CLP</th><th scope="col">Endereço</th></tr></thead><tbody>
+              <tr><td>Emergência</td><td>Ia1</td><td>%I0.1</td></tr><tr><td>Alimentador avançado</td><td>Ia2</td><td>%I0.2</td></tr><tr><td>Alimentador recuado</td><td>Ia3</td><td>%I0.3</td></tr><tr><td>Vacuostato</td><td>Ia4</td><td>%I0.4</td></tr><tr><td>Comutador 2 posições</td><td>Ia5</td><td>%I0.5</td></tr><tr><td>Botão Start</td><td>Ia6</td><td>%I0.6</td></tr><tr><td>Botão Stop</td><td>Ia7</td><td>%I0.7</td></tr>
+            </tbody></table></div></div>
+            <div class="io-table-wrap"><h4>Saídas</h4><div class="table-scroll"><table><thead><tr><th scope="col">Descrição</th><th scope="col">Canal CLP</th><th scope="col">Endereço</th></tr></thead><tbody>
+              <tr><td>Avança alimentador</td><td>Qa0</td><td>%Q0.0</td></tr><tr><td>Aciona vácuo</td><td>Qa1</td><td>%Q0.1</td></tr><tr><td>Motor esteira 1 e giro</td><td>Qa2</td><td>%Q0.2</td></tr><tr><td>Motor esteira 2</td><td>Qa3</td><td>%Q0.3</td></tr><tr><td>Válvula 1 do stopper</td><td>Qa4</td><td>%Q0.4</td></tr><tr><td>Válvula 2 do stopper</td><td>Qa5</td><td>%Q0.5</td></tr><tr><td>Status para Smart Sense</td><td>Qb1</td><td>%Q1.1</td></tr>
+            </tbody></table></div></div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -238,11 +258,11 @@
     </section>
 
     <section class="credits-band" aria-label="Créditos do projeto">
-      <div class="page-width credits-inner"><p class="eyebrow"><span class="eyebrow-line"></span> FEITO EM EQUIPE</p><h2>Conhecimento que<br><span>vira movimento.</span></h2><div class="credit-columns"><div><span>INTEGRANTES</span><p>[Inserir nomes do grupo]</p></div><div><span>ORIENTAÇÃO</span><p>[Inserir professores orientadores]</p></div><div><span>FORMAÇÃO</span><p>[Curso] · [Unidade SENAI]</p></div></div></div>
+      <div class="page-width credits-inner"><p class="eyebrow"><span class="eyebrow-line"></span> FEITO EM EQUIPE</p><h2>A bancada que<br><span>a gente construiu.</span></h2><p class="credits-note">Entre montagem, ligação e testes, cada parte foi tomando forma até trabalhar em conjunto. Este site reúne o que aprendemos e o que apresentamos na Amostra.</p><div class="credit-columns"><div><span>CRIADO POR</span><p>Kristopher, Matheus e Antonela</p></div><div><span>EQUIPE</span><p>Equipe Bancada de Expedição</p></div><div><span>FORMAÇÃO</span><p>[Curso] · [Unidade SENAI]</p></div></div></div>
     </section>
   </main>
 
-  <footer class="site-footer"><div class="page-width footer-main"><a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true">MS</span><span class="brand-copy"><strong>MUNDO SENAI</strong><span>Amostra · Automação &amp; Expedição</span></span></a><p>Projeto desenvolvido para a<br><strong>Amostra Mundo SENAI 2026</strong></p><a class="back-top" href="#inicio">Voltar ao topo <span aria-hidden="true">↑</span></a></div><div class="page-width footer-bottom"><span>© 2026 · Projeto acadêmico SENAI</span><span>TECNOLOGIA · INDÚSTRIA · APRENDIZAGEM</span></div></footer>
+  <footer class="site-footer"><div class="page-width footer-main"><a class="brand footer-brand" href="#inicio"><img class="senai-logo" src="assets/senai-logo.svg" alt="SENAI"><span class="brand-copy"><strong>BANCADA 4.0</strong><span>Equipe Bancada de Expedição</span></span></a><p>Criado por Kristopher, Matheus e Antonela.<br><strong>Amostra Mundo SENAI 2026</strong></p><a class="back-top" href="#inicio">Voltar ao topo <span aria-hidden="true">↑</span></a></div><div class="page-width footer-bottom"><span>© 2026 · Projeto acadêmico SENAI</span><span>KRISTOPHER · MATHEUS · ANTONELA</span></div></footer>
 
   <dialog class="spec-dialog" id="spec-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span class="dialog-kicker">ROBÔ PNEUMÁTICO · ESPECIFICAÇÃO</span><button class="dialog-close" type="button" aria-label="Fechar">×</button></div><h2 id="dialog-title"></h2><p id="dialog-copy"></p><p class="dialog-caution">Confirme as especificações finais com a equipe do projeto.</p></dialog>
 </body>

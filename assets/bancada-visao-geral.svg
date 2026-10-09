@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Visão geral da Bancada 4.0</title>
+  <desc id="desc">Ilustração técnica de uma linha de automação com módulos de estoque, processo, montagem e expedição.</desc>
+  <defs>
+    <linearGradient id="cabinet" x2="0" y2="1"><stop stop-color="#333b42"/><stop offset="1" stop-color="#121619"/></linearGradient>
+    <linearGradient id="steel" x2="0" y2="1"><stop stop-color="#dce5ea"/><stop offset="1" stop-color="#84949d"/></linearGradient>
+  </defs>
+  <rect width="1200" height="520" fill="#f6f9fb"/>
+  <path d="M62 416h1080" stroke="#d2dce3" stroke-width="4"/>
+  <g fill="none" stroke="#7f9099" stroke-width="8">
+    <path d="M95 188V81h220v107M357 188V72h220v116M619 188V64h226v124M887 188V81h220v107"/>
+    <path d="M95 115h220m42 0h220m42 0h226m42 0h220" stroke-width="5"/>
+    <path d="M114 184v-72m38 72v-72m38 72v-72m38 72v-72m38 72v-72M376 184v-72m38 72v-72m38 72v-72m38 72v-72m38 72v-72M640 184v-72m38 72v-72m38 72v-72m38 72v-72m38 72v-72M906 184v-72m38 72v-72m38 72v-72m38 72v-72m38 72v-72" stroke-width="3"/>
+  </g>
+  <g fill="url(#cabinet)" stroke="#0b1013" stroke-width="3">
+    <rect x="84" y="224" width="250" height="184" rx="3"/><rect x="346" y="224" width="250" height="184" rx="3"/>
+    <rect x="608" y="224" width="250" height="184" rx="3"/><rect x="870" y="224" width="250" height="184" rx="3"/>
+  </g>
+  <g fill="#20282e" stroke="#56636b" stroke-width="2">
+    <rect x="100" y="272" width="218" height="119"/><rect x="362" y="272" width="218" height="119"/>
+    <rect x="624" y="272" width="218" height="119"/><rect x="886" y="272" width="218" height="119"/>
+  </g>
+  <g fill="#b5c4cb" stroke="#6d7d85" stroke-width="2">
+    <path d="M57 204h1088v20H57z"/><path d="M83 186h1039v18H83z" fill="url(#steel)"/>
+    <path d="M103 411h23v20h-23zm231 0h23v20h-23zm251 0h23v20h-23zm251 0h23v20h-23zm251 0h23v20h-23z"/>
+  </g>
+  <g fill="#687b86" stroke="#35434b" stroke-width="2">
+    <rect x="144" y="230" width="134" height="31" rx="3"/><rect x="406" y="230" width="134" height="31" rx="3"/>
+    <rect x="668" y="230" width="134" height="31" rx="3"/><rect x="930" y="230" width="134" height="31" rx="3"/>
+  </g>
+  <g fill="#dce6eb"><rect x="153" y="236" width="64" height="19"/><rect x="415" y="236" width="64" height="19"/><rect x="677" y="236" width="64" height="19"/><rect x="939" y="236" width="64" height="19"/></g>
+  <g fill="#62a947" font-family="Arial, sans-serif" font-size="17" font-weight="700">
+    <text x="176" y="331">ESTOQUE</text><text x="430" y="331">PROCESSO</text><text x="699" y="331">MONTAGEM</text><text x="955" y="331">EXPEDIÇÃO</text>
+  </g>
+  <g fill="#f4f8fa" font-family="Arial, sans-serif" font-size="11" letter-spacing="1"><text x="117" y="367">SMART 4.0</text><text x="379" y="367">SMART 4.0</text><text x="641" y="367">SMART 4.0</text><text x="903" y="367">SMART 4.0</text></g>
+  <g stroke="#7d8c94" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M712 183v-34l-22-30 20-27 33 17 18 35-18 30"/><path d="M710 119l-30-22 11-22 29 15m41 37 27-20 14 12-35 34"/>
+  </g>
+  <g fill="#27a8db"><circle cx="690" cy="119" r="13"/><circle cx="710" cy="91" r="13"/><circle cx="761" cy="144" r="12"/><circle cx="792" cy="129" r="9"/></g>
+  <rect x="773" y="211" width="76" height="42" rx="4" fill="#263d49" stroke="#5cc9ef" stroke-width="3"/>
+  <rect x="781" y="219" width="60" height="26" fill="#b9e9f3"/>
+  <g fill="#ef5555"><circle cx="302" cy="245" r="5"/><circle cx="564" cy="245" r="5"/><circle cx="826" cy="245" r="5"/><circle cx="1088" cy="245" r="5"/></g>
+  <text x="65" y="475" fill="#526574" font-family="Arial, sans-serif" font-size="13" letter-spacing="2">LINHA DIDÁTICA · AUTOMAÇÃO INTEGRADA · BANCADA 4.0</text>
+</svg>
